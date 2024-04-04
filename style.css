@@ -60,7 +60,19 @@ button:hover {
   cursor: pointer;
   transform: translateY(-2px);
 }
-@media only screen and (min-width: 390px) {
+/* @media only screen and (min-width: 320px) {
+  #gameboard {
+    width: 300px;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+} */
+/* @media only screen and (min-width: 390px) {
   #gameboard {
     width: 360px;
   }
@@ -70,6 +82,18 @@ button:hover {
   }
   h1 {
     font-size: 44px;
+  }
+} */
+@media (max-width: 767px) {
+  #gameboard {
+    width: 300px;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 34px;
   }
 }
 @media only screen and (min-width: 768px) {
