@@ -29,6 +29,10 @@ function boxClicked(e) {
       boxes.forEach((box) => box.removeEventListener("click", boxClicked));
       return;
     }
+      if (spaces.every((space) => space !== null)) {
+      playerText.innerHTML = `Draw`;
+      return;
+    }
     currentPlayer = currentPlayer == X_TEXT ? O_TEXT : X_TEXT;
   }
 }
