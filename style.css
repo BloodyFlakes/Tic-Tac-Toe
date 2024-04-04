@@ -60,3 +60,15 @@ button:hover {
   cursor: pointer;
   transform: translateY(-2px);
 }
+@media only screen and (min-width: 390px) {
+  #gameboard {
+    width: 360px;
+  }
+  .box {
+    height: 120px;
+    width: 120px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+}
